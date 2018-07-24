@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oberhausenMain">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logo_height"
+        android:scaleType="fitXY"
+        android:src="@drawable/centro" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginStart="@dimen/margin"
+            android:text="@string/details"
+            android:textStyle="italic" />
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/margin"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/start"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

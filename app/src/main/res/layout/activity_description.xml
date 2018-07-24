@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".SpotDescriptionActivity">
+
+    <ImageView
+        android:id="@+id/description_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/descriptionHeight"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/short_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_image"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="@dimen/text_desc" />
+
+    <TextView
+        android:id="@+id/Owners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/short_description"
+        android:layout_margin="@dimen/margin"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="@dimen/text_desc" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Owners"
+        android:layout_margin="@dimen/margin"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="@dimen/text_desc" />
+
+    <TextView
+        android:id="@+id/opening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:textStyle="italic|bold" />
+</RelativeLayout>

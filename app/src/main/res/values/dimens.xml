@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_height">180dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="text_size">30sp</dimen>
+    <dimen name="logo_height">200dp</dimen>
+    <dimen name="list_text_margin">10dp</dimen>
+    <dimen name="text_size_titel">20sp</dimen>
+    <dimen name="itemwidth">100dp</dimen>
+    <dimen name="itemheight">100dp</dimen>
+    <dimen name="descriptionHeight">200dp</dimen>
+    <dimen name="text_desc">18sp</dimen>
+</resources>
